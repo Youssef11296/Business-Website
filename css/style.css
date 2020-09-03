@@ -104,7 +104,6 @@ body {
 /* Header */
 header {
     height: 2vh;
-    margin-top: 1.2rem;
     position: fixed;
     top: 3rem;
     left: 6rem;
@@ -244,7 +243,7 @@ header .icon {
 .showcase .row .left-col .sci {
     position: fixed;
     top: 50%;
-    left: 2rem;
+    left: 1rem;
     transform: translateY(-50%);
     width: 25px;
     height: 180px;
@@ -366,6 +365,11 @@ header .icon {
     margin: .8rem 0;
 }
 
+.contact form input[type="submit"] {
+    width: 50%;
+    cursor: pointer;
+}
+
 .contact .right-part {
     width: 600px;
 }
@@ -415,9 +419,16 @@ footer p {
         width: 900px;
     }
 
-    .services .right-part,
-    .motivation .right-part,
+    .features .row div {
+        margin-top: 2rem;
+    }
+
     .contact .right-part {
+        width: 400px;
+    }
+
+    body *>section,
+    section div:last-child {
         margin-top: 2rem;
     }
 }

@@ -5,7 +5,7 @@ const menuToggle = () => {
 
 // Hide The Logo During The Scroll
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 200) {
+    if (window.scrollY > 0) {
         document.querySelector('header .logo').style.opacity = '0';
     } else {
         document.querySelector('header .logo').style.opacity = '1';
